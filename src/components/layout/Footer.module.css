@@ -1,0 +1,42 @@
+.container {
+    background-color: #222;
+    padding: 1.6em;
+    text-align: center;
+    color: white;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.list li{
+    margin: 0 1em;
+}
+
+.list li:hover {
+   color: #ffbb33;
+}
+
+.list svg {
+    font-size: 1.5em;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+
+.list svg:hover {
+    font-size: 1.8em;
+}
+
+
+.copy_right {
+    margin-top: 2em;
+}
+
+.copy_right span {
+    font-weight: bold;
+    color: #ffbb33;
+}
+
